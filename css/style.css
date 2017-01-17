@@ -1,0 +1,76 @@
+/* ----------------------
+Style Sheet for STUDIO INDIE
+version: 1.0
+author: Lucas Soares
+-----------------------*/
+
+body,html, .capa{
+	height: 100%;
+}
+
+body{
+	font-family: Helvetica,Arial,sans-serif;
+	background: url('../img/capa.png');
+	background-attachment: fixed;
+}
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse{
+  text-align: center;
+}
+.navbar-inverse{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border:none;
+	background-color: rgba(0,0,0,0.6);
+}
+.navbar-inverse .navbar-nav>li>a{
+	text-transform: uppercase;
+	font-weight: bold;
+	color: white;
+}
+.capa{
+	display: table;
+	width: 100%;
+}
+.texto-capa{
+	text-align: center;
+	color: white;
+	display: table-cell;
+	vertical-align: middle;
+}
+h1 {
+	font-size: 100px;
+	font-weight: 900;
+	letter-spacing: -0.05em;
+	margin-bottom: 50px;
+}
+#sobre{
+	background-color: white;
+	padding: 15px;
+}
+
+#equipe{
+	background-color: black;
+	padding: 15px;
+}
+#imagens{
+	background-color: white;
+	padding: 15px;
+}
+p,h4,h2{
+	color: white;
+}
+.img-responsive{
+	margin-top: 20px;
+}
+footer{
+	background-color: black;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	vertical-align: middle;
+}
