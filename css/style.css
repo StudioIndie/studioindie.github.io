@@ -7,18 +7,16 @@ author: Lucas Soares
 body,html, .capa{
 	height: 100%;
 }
-
 body{
 	font-family: Helvetica,Arial,sans-serif;
 	background: url('../img/capa.png');
 	background-attachment: fixed;
 }
-.navbar .navbar-nav {
+.navbar .navbar-nav{
   display: inline-block;
   float: none;
   vertical-align: top;
 }
-
 .navbar .navbar-collapse{
   text-align: center;
 }
@@ -33,6 +31,9 @@ body{
 	font-weight: bold;
 	color: white;
 }
+.navbar-inverse .navbar-nav>li>a:hover{
+	text-decoration: underline;
+}
 .capa{
 	display: table;
 	width: 100%;
@@ -43,7 +44,7 @@ body{
 	display: table-cell;
 	vertical-align: middle;
 }
-h1 {
+h1{
 	font-size: 100px;
 	font-weight: 900;
 	letter-spacing: -0.05em;
@@ -51,9 +52,8 @@ h1 {
 }
 #sobre{
 	background-color: white;
-	padding: 15px;
+	padding: 20px;
 }
-
 #equipe{
 	background-color: black;
 	padding: 15px;
@@ -62,10 +62,37 @@ h1 {
 	background-color: white;
 	padding: 15px;
 }
+#profissoes{
+	padding-right: 15px;
+	padding-left: 15px;
+}
+/* area das profissoes */
+#programador{
+	background-color: #9c1b31;
+}
+#roteirista{
+	background-color: #811d5d;
+}
+#freelancer{
+	background-color: #414244;
+}
+#artista{
+	background-color: #95b94f;
+}
+#produtor{
+	background-color: #22397f;
+}
+#game-design{
+	background-color: #f3b417;
+}
+.linhas{
+	padding: 15px;
+	color: white;
+}
 p,h4,h2{
 	color: white;
 }
-.img-responsive{
+.img-perfil{
 	margin-top: 20px;
 }
 footer{
@@ -73,4 +100,21 @@ footer{
 	padding-top: 20px;
 	padding-bottom: 10px;
 	vertical-align: middle;
+}
+.texto-profissoes{
+	text-align: center;
+}
+#aplicativo{
+	padding: 15px;
+	background-color: white;
+}
+#segundas-imagens{
+	margin-top: 20px;
+}
+
+::selection{
+  background: #686868; 
+}
+::-moz-selection{
+  background: #686868;
 }
