@@ -4,6 +4,12 @@ version: 1.0
 author: Lucas Soares
 -----------------------*/
 
+::selection{
+  background: #686868; 
+}
+::-moz-selection{
+  background: #686868;
+}
 body,html, .capa{
 	height: 100%;
 }
@@ -66,7 +72,6 @@ h1{
 	padding-right: 15px;
 	padding-left: 15px;
 }
-/* area das profissoes */
 #programador{
 	background-color: #9c1b31;
 }
@@ -111,10 +116,56 @@ footer{
 #segundas-imagens{
 	margin-top: 20px;
 }
+.container{
+	display: table;
+}
+.caixa-frase{
+	float: none;
+	display: table-cell;
+	vertical-align: middle;
+}
+.imagem-frase{
+	float: right;
+}
+.frase{
+	color: white;
+	font-size: 35px;
+	font-weight: 700;
+	letter-spacing: -0.03em;
+	font-style: italic;
+}
+#titulo-equipe{
+	color: white;
+	font-size: 40px;
+	font-weight: 700;
+	letter-spacing: -0.02em;
+}
+#subtitulo-equipe{
+	color: white;
+	font-size: 15px;
+	font-weight: 600px;
+	letter-spacing: -0.02em;
+	margin-bottom: 30px;
+}
+#btn-aplicativo{
+	text-transform: uppercase;
+	background-color: rgb(0,0,0);
+	color: white;
+}
+#btn-aplicativo:hover{
+	background-color: rgba(0,0,0,0.8);
+}
+.btn-principal{
+	background-color: transparent;
+	color: white;
+	padding: 20px;
+	font-size: 15px;
+	margin-right: 20px;
+	font-weight: bold;
+}
+.btn-principal:hover{
+	color: black;
+	background-color: white;
+	border-color: black;
+}
 
-::selection{
-  background: #686868; 
-}
-::-moz-selection{
-  background: #686868;
-}
