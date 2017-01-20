@@ -63,6 +63,7 @@ h1{
 #equipe{
 	background-color: black;
 	padding: 15px;
+	color: white;
 }
 #imagens{
 	background-color: white;
@@ -94,17 +95,18 @@ h1{
 	padding: 15px;
 	color: white;
 }
-p,h4,h2{
-	color: white;
-}
 .img-perfil{
 	margin-top: 20px;
+	border: solid 5px white;
+	max-width: 200px;
+	max-height: 200px;
 }
 footer{
 	background-color: black;
 	padding-top: 20px;
 	padding-bottom: 10px;
 	vertical-align: middle;
+	color: white;
 }
 .texto-profissoes{
 	text-align: center;
@@ -129,7 +131,7 @@ footer{
 }
 .frase{
 	color: white;
-	font-size: 35px;
+	font-size: 20px;
 	font-weight: 700;
 	letter-spacing: -0.03em;
 	font-style: italic;
@@ -142,25 +144,17 @@ footer{
 }
 #subtitulo-equipe{
 	color: white;
-	font-size: 15px;
+	font-size: 18px;
 	font-weight: 600px;
 	letter-spacing: -0.02em;
 	margin-bottom: 30px;
-}
-#btn-aplicativo{
-	text-transform: uppercase;
-	background-color: rgb(0,0,0);
-	color: white;
-}
-#btn-aplicativo:hover{
-	background-color: rgba(0,0,0,0.8);
 }
 .btn-principal{
 	background-color: transparent;
 	color: white;
 	padding: 20px;
 	font-size: 15px;
-	margin-right: 20px;
+	margin: 20px;
 	font-weight: bold;
 }
 .btn-principal:hover{
@@ -168,4 +162,39 @@ footer{
 	background-color: white;
 	border-color: black;
 }
+#texto-descricao{
+	color: black;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+}
+.nome-link:hover{
+	color: white;
+}
+.nome-link{
+	color: white;
+}
+.funcao{
+	font-size: 15px;
+	margin-top: -5px;
+}
+.img-logo{
+	height: 40px;
+	width: 132px;
+	display: block;
+	background: url('../img/studioindie.png') no-repeat;
+	background-size: contain;
+	color: transparent;
+}
+.programador:hover{
+	border-color:#9c1b31; 
+}
+.artista:hover{
+	border-color:#95b94f;
+}
+.game-designer:hover{
+	border-color: #f3b417;
+}
+.produtor:hover{
 
+}
