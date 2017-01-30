@@ -109,6 +109,7 @@ footer{
 	padding-bottom: 10px;
 	vertical-align: middle;
 	color: white;
+	border-top: 1px solid white;
 }
 .texto-profissoes{
 	text-align: center;
@@ -220,4 +221,8 @@ footer{
 @font-face{
 	font-family: "PressStart";
 	src:url("PressStart2P-Regular.ttf") format("truetype");
+}
+#opinioes{
+	color: white;
+	padding: 15px;
 }
